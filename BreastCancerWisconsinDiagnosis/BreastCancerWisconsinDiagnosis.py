@@ -34,3 +34,8 @@ print("x test: ", x_test.shape)
 print("y train: ", y_train.shape)
 print("y test: ", y_test.shape)
 
+def initialize_weights_and_bias(dimension):
+    w = np.full((dimension, 1), 0.01)
+    b = 0.0
+    return w, b
+
